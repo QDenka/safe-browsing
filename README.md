@@ -4,9 +4,9 @@ Client to use [Google's](https://developers.google.com/safe-browsing/v4/) and [Y
 
 ## Requirements
 
-1. PHP7+ (tested only on PHP7.2 and PHP7.3)
+1. PHP7+ / PHP8
 
-2. [guzzlehttp/guzzle](guzzlehttp/guzzle) >= v6
+2. [guzzlehttp/guzzle](guzzlehttp/guzzle) >= v7
 
 ## Installation
 
