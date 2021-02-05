@@ -1,0 +1,32 @@
+{
+  "name": "qdenka/safe-browsing",
+  "description": "Client to use Google's and Yandex Safe Browsing API (v4)",
+  "keywords": ["GSB", "Safe Browsing", "YSB", "malware", "phishing", "API", "detection", "threat", "security"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Thomas Uhlmann",
+      "email": "thomas@bite.codes",
+      "homepage": "https://github.com/bitecodes"
+    },
+    {
+      "name": "Denis Veselov",
+      "homepage": "https://github.com/saippuakauppias"
+    }
+  ],
+  "require": {
+    "php-http/client-implementation": "*",
+    "php-http/guzzle7-adapter": "*",
+    "php-http/discovery": "*",
+    "php-http/message": "*"
+  },
+  "require-dev": {
+    "php-http/mock-client": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Saippuakauppias\\SafeBrowsing\\": "src"
+    }
+  }
+}
