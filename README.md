@@ -15,7 +15,7 @@ The preferred way to install this library is through [composer](http://getcompos
 Either run
 
 ```bash
-$ composer require saippuakauppias/safe-browsing
+$ composer require qdenka/safe-browsing
 ```
 
 or add
@@ -32,7 +32,7 @@ to the `require` section of your `composer.json` file.
 require 'vendor/autoload.php';
 
 use Saippuakauppias\SafeBrowsing\Client as SBClient;
-use Http\Adapter\Guzzle6\Client as GuzzleClient;
+use Http\Adapter\Guzzle7\Client as GuzzleClient;
 
 
 // config for Safe Browsing request
