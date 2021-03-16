@@ -47,6 +47,19 @@ class Response
 
         return $isValid;
     }
+    
+    /**
+     * @param $url
+     *
+     * @return bool
+     */
+    public function hasError($url)
+    {
+        if(!empty($result->getContent()['error']) || !empty($result->getContent()->error))
+            return true;
+        else
+            return false;
+    }
 
     /**
      * @param $url
