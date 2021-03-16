@@ -53,7 +53,7 @@ class Response
      *
      * @return bool
      */
-    public function hasError($url)
+    public function hasError()
     {
         if(!empty($this->getContent()['error']))
             return true;
